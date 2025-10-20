@@ -19,3 +19,4 @@ spec:
         image: mullerhub/hello-app:a8d55d1
         ports:
         - containerPort: 80
+        command: ["/bin/sh", "-c", "sleep infinity"]
