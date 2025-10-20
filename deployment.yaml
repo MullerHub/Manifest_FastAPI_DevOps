@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: mullerhub/hello-app:a8d55d1
+        image: nginxdemos/hello
         ports:
         - containerPort: 80
         command: ["/bin/sh", "-c", "sleep infinity"]
