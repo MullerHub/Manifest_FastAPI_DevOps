@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: mullerhub/hello-app:ac042c2
+        image: mullerhub/hello-app:ef6152e
         ports:
         - containerPort: 80
